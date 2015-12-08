@@ -18,7 +18,7 @@ gem 'rack', github: "rack/rack"
 gem 'coffee-rails', github: "rails/coffee-rails"
 gem 'uglifier', '>= 1.3.0'
 gem 'active_model_serializers', '~> 0.10.0.rc3'
-gem 'devise', '~> 3.5', '>= 3.5.2'
+gem 'devise', github: 'twalpole/devise', branch: 'rails5' # to use while rails5 is not supported by devise itself
 
 
 # Use jquery as the JavaScript library

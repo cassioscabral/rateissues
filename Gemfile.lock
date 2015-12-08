@@ -114,6 +114,19 @@ GIT
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
 
+GIT
+  remote: git://github.com/twalpole/devise.git
+  revision: 85700fba52891bb73e607b9414dc27e246721c6b
+  branch: rails5
+  specs:
+    devise (3.5.2)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      responders
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -135,13 +148,6 @@ GEM
     concurrent-ruby (1.0.0)
     connection_pool (2.2.0)
     debug_inspector (0.0.2)
-    devise (3.5.2)
-      bcrypt (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 3.2.6, < 5)
-      responders
-      thread_safe (~> 0.1)
-      warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.6.0)
     globalid (0.3.6)
@@ -210,7 +216,7 @@ DEPENDENCIES
   arel!
   byebug
   coffee-rails!
-  devise (~> 3.5, >= 3.5.2)
+  devise!
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.18.4)
