@@ -17,6 +17,8 @@ gem 'arel', github: "rails/arel"
 gem 'rack', github: "rack/rack"
 gem 'coffee-rails', github: "rails/coffee-rails"
 gem 'uglifier', '>= 1.3.0'
+gem 'active_model_serializers', '~> 0.10.0.rc3'
+gem 'devise', '~> 3.5', '>= 3.5.2'
 
 
 # Use jquery as the JavaScript library
