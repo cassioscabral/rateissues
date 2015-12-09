@@ -20,6 +20,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'active_model_serializers', '~> 0.10.0.rc3'
 gem 'devise', github: 'twalpole/devise', branch: 'rails5' # to use while rails5 is not supported by devise itself
 
+gem 'graphql'
+gem 'graphql-relay'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
