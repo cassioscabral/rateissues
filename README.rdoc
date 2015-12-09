@@ -1,28 +1,21 @@
-== README
+# Rateissues(temporary name)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Rails 5 API backend Application
 
-Things you may want to cover:
+### Why ?
+  To provide a better way for you to interact with Github, open-source code and community.
 
-* Ruby version
+### How it works ?
+  Finding issues from Github that you can solve, friends to help you with it
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### What it does ?
+  Improve your portfolio, insert you faster in the open-source beautiful world and make you happy coding everyday
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
+
+### The stack
+  Backend: Rails 5 using API only, serving data through a GraphQL endpoint
+
+  Frontend: React + Relay on a separated repo to keep clean and avoid the use of Rails asset pipeline or views
